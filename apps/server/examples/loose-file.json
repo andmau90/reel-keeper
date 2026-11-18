@@ -1,0 +1,13 @@
+{
+  "kind": "loose_file",
+  "sourcePath": "Amber.Coast.2004.1080p.mkv",
+  "movie": {
+    "title": "Amber Coast",
+    "year": 2004
+  },
+  "companions": ["Amber.Coast.2004.1080p.en.srt"],
+  "existingPaths": [
+    "Amber.Coast.2004.1080p.mkv",
+    "Amber.Coast.2004.1080p.en.srt"
+  ]
+}

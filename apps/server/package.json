@@ -1,0 +1,32 @@
+{
+  "name": "@reelkeeper/server",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc -b",
+    "typecheck": "tsc -b --pretty false",
+    "dry-run": "node dist/cli.js",
+    "recognize": "node dist/recognize-cli.js",
+    "start": "node dist/server.js"
+  },
+  "dependencies": {
+    "@reelkeeper/core": "workspace:*",
+    "@reelkeeper/shared": "workspace:*",
+    "better-sqlite3": "^13.0.3",
+    "fast-xml-parser": "^5.12.1",
+    "fastify": "^5.6.2",
+    "zod": "^4.1.12"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^9.6.0"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "@reelkeeper/web",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "typecheck": "tsc -b --pretty false"
+  },
+  "dependencies": {
+    "@reelkeeper/shared": "workspace:*",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  }
+}
